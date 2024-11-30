@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 My Notes</h1>
+    </header>
+    <main>
+      <form id="noteForm">
+        <input type="text" id="noteTitle" placeholder="Enter Note Title" maxlength="50" required>
+        <textarea id="noteDescription" placeholder="Enter Note Description" rows="4" maxlength="250" required></textarea>
+        <button type="submit">➕ Add Note</button>
+      </form>
+      <section id="notesContainer">
+        <!-- Notes will appear here -->
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
